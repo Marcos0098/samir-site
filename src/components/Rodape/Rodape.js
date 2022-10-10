@@ -29,6 +29,7 @@ const Rodape = () => {
                     <div className="dados-contato">
                         <p><strong>Endereço:</strong> Rua 2400, 137 sala 04 Centro - Balneário Camboriú - SC</p>
                         <p><strong>Telefone:</strong> +55 (47) 996967912</p>
+                        <p><strong>E-mail:</strong> cafeteriasultan@gmail.com</p>
                     </div>
                 </div>
                     <div className="redes-sociais">
