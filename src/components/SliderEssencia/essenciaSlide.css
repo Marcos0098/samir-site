@@ -1,0 +1,118 @@
+.essencia-slider{
+    width: 51%;
+    position: relative;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-essencia{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.right-arrow-essencia{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    font-size: 4rem;
+    color: #FBAA00;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow-essencia{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 4rem;
+    color: #FBAA00;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.essencia {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.essencia.ativa{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08s);
+}
+
+.sabores{
+    width: 100%;
+    color: rgb(226, 211, 43);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Roboto';
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .essencia.ativa{
+        display: flex;
+        width: 100%;
+    }
+
+    .essencia-slider{
+        position:relative;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-essencia{
+        margin-bottom: 35%;
+        width: 55% !important;
+        margin-left: 27% !important;
+    }
+
+
+    .right-arrow-essencia{
+        position: absolute;
+        top: 82%;
+        right: 0.5%;
+        font-size: 3.5rem;
+        color: #fbaa00;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    .left-arrow-essencia{
+        position: absolute;
+        top: 82%;
+        left: 11%;
+        font-size: 3.5rem;
+        color: #FBAA00;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+}
+
+@media screen and (max-width: 1366px){
+    .image-essencia{
+        margin-left:15%;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-arrow-essencia{
+        font-size: 3rem;
+    }
+    
+    .left-arrow-essencia{
+        font-size: 3rem;
+    }
+}

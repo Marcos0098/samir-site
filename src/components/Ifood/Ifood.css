@@ -1,0 +1,166 @@
+section.ifood{
+    width: 100%;
+    display: flex;
+    min-height: 475px;
+    background-color: #202020;
+    
+}
+.titulo-ifood{
+    margin-top: 10px;
+    justify-content: center;
+    color: #0f0f0f;
+    display: flex;
+}
+
+.titulo-ifood img{
+    margin: 0 10px;
+    width: 60px;
+    color: #202020;
+}
+
+.container-ifood{
+    width: 90%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    background-color: #FBAA00;
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(255,255,255,1);
+    box-shadow: 0px 0px 14px 4px rgba(255,255,255,1);
+}
+
+.container-ifood-imagem-frase{
+    width: 100%;
+    display: flex;
+}
+
+.container-escrita-ifood{
+    color: #0f0f0f;
+    width: 40%;
+    margin: 3% 1% 1% 1%;
+}
+
+.container-ifood h1{
+    font-size: 46px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-ifood h2{
+    margin-top: 1%;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.container-ifood h3{
+    margin-top: 7%;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.container-imagem{
+    width: 18%;
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-whatsapp{
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.logo-ifood{
+    width: 100%;
+}
+
+.entregador-logo{
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+}
+
+.entregador-logo img{
+    width: 85%;
+}
+
+@media screen and (max-width: 768px) {
+
+    section.ifood{
+        min-height: 500px;
+    }
+
+    .container-ifood{
+        margin-top: 0;
+    }
+    .titulo-ifood{
+        margin-top: 10px;
+        justify-content: center;
+        color: #0f0f0f;
+        display: flex;
+    }
+
+    .container-escrita-ifood{
+        margin: 0 0 ;
+    }
+
+    .titulo-ifood h1{
+        font-size: 30px;
+    }
+
+    .container-ifood-imagem-frase{
+        display: block;
+    }
+
+    .container-escrita-ifood{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .container-escrita-ifood h2,
+    .container-escrita-ifood h3{
+        font-size: 24px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container-escrita-ifood h2{
+        padding: 0px 10px;
+    }
+
+    .entregador-logo{
+        display: none;
+    }
+
+    .container-imagem{
+        margin: 0 0;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .logo-ifood{
+        margin: 0 0;
+        width: 192px;
+        margin-left: 10px;
+    }
+
+    .logo-whatsapp{
+        margin: 0 0 ;
+        margin-left: 40px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+    }
+}
