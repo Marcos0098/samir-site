@@ -5,7 +5,9 @@ import facebook from '../../images/facebook-logo.png';
 import zap from '../../images/whatsapp.png';
 import instagram from '../../images/instagram-logo.png';
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
-
+import { AiFillPhone } from 'react-icons/ai';
+import { IoLocationSharp } from 'react-icons/io5';
+import { MdEmail } from 'react-icons/md';
 const Rodape = () => {
 
     const { isLoaded } = useJsApiLoader({
@@ -27,9 +29,10 @@ const Rodape = () => {
                         <h1>Contato</h1>
                     </div>
                     <div className="dados-contato">
-                        <p><strong>Endereço:</strong> Rua 2400, 137 sala 04 Centro - Balneário Camboriú - SC</p>
-                        <p><strong>Telefone:</strong> +55 (47) 996967912</p>
-                        <p><strong>E-mail:</strong> cafeteriasultan@gmail.com</p>
+                        <p><IoLocationSharp/> <strong>Endereço:</strong> Rua 2400, 137 sala 04 Centro - Balneário Camboriú - SC</p>
+                        <p><AiFillPhone/> <strong>Telefone:</strong> +55 (47) 996967912</p>
+                        <p><MdEmail/> <strong>E-mail:</strong> cafeteriasultan@gmail.com</p>
+
                     </div>
                 </div>
                     <div className="redes-sociais">
