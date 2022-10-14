@@ -1,9 +1,9 @@
 import React from "react";
 import './Rodape.css';
-import LogoPrincipal from '../images/logoFundo0.png';
-import facebook from '../images/facebook-logo.png';
-import zap from '../images/whatsapp.png';
-import instagram from '../images/instagram-logo.png';
+import LogoPrincipal from '../../images/logoFundo0.png';
+import facebook from '../../images/facebook-logo.png';
+import zap from '../../images/whatsapp.png';
+import instagram from '../../images/instagram-logo.png';
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
 const Rodape = () => {

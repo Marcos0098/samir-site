@@ -90,7 +90,7 @@ section.cardapio{
 .cardapio-selecionado img{
     right: 20%;
     position: absolute;
-    background-image: url('../images/menu.png');
+    background-image: url('../../images/menu.png');
 }
 
 
@@ -303,13 +303,11 @@ section.cardapio{
     }
 
     .container-selecionar-cardapio{
-        margin-top: 10%;
-        width: 100%;
-        margin-left: 0;
+        display: none;
     }
 
     .subtitulo-cardapio h2{
-        font-size: 25px;
+        display: none;
     }
 
     .selecionar-cardapio{
@@ -323,7 +321,7 @@ section.cardapio{
         width: 100%;
         margin: 10% 0;
         height: 700px;
-        background-image: url('../images/menu.png');
+        background-image: url('../../images/menu.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 100% 100%;

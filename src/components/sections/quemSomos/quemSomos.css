@@ -1,0 +1,67 @@
+section.quem_somos{
+    display: flex;
+    width: 100%;
+}
+
+.container_1{
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/prato_1.png');
+    background-position: center;
+    background-size:cover;
+    min-height: 835px;
+    padding:13% 0 ;
+    
+}
+
+.box_quem_somos{
+    text-align: center;
+    background-color: #202020;
+    width: 30%;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.box_quem_somos img{
+    margin: 0 35px;
+    width: 50px;
+}
+
+.box_quem_somos h2{
+    margin: auto 0;
+    color: #B2B2B2;
+    padding-bottom: 15px;
+    font-size: 38px;
+
+}
+
+.titulo_quem_somos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_quem_somos p{
+    margin-top: 7px;
+    color: #ffc23f;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container_1{
+        padding: 50px 0;
+    }
+    
+    .box_quem_somos {
+        margin: 35% auto;
+        width: 80%;
+    }
+    
+    .titulo_quem_somos{
+        margin: 0;
+        justify-content: center;
+    }
+}    

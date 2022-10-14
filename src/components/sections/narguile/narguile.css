@@ -1,0 +1,48 @@
+    section.narguile{
+        display: flex;
+        width: 100%;
+        min-height: 700px;
+    }
+
+    .nargas{
+        width: 100%;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../../components/images/background_narguile.jpg');
+        background-size: cover;
+    }
+
+    .titulo_narguile{
+        margin: 20px 0 ;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo_narguile h2{
+        padding: 0 10px;
+        margin: auto 0;
+        text-shadow: 1px 3px black;
+        text-align: center;
+        font-size: 34px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color: #FBAA00;
+    }
+
+    .titulo_narguile img{
+        width: 120px;
+        filter: drop-shadow(0 0 0 #FBAA00);
+    }
+
+    .container_narguile{
+        display: flex;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px){
+
+    .container_narguile{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    }

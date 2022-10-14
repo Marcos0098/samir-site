@@ -1,14 +1,14 @@
 import React from "react";
 import './Ifood.css';
-import imagemIfood from '../images/ifood.png';
-import whatsapp from '../images/whatsapp.png';
-import entregador from '../images/entregador.png';
-import logoEntrega from '../images/logo-entrega.png';
+import imagemIfood from '../../images/ifood.png';
+import whatsapp from '../../images/whatsapp.png';
+import entregador from '../../images/entregador.png';
+import logoEntrega from '../../images/logo-entrega.png';
 
 const Ifood = () => {
 
     return(
-        <section className='ifood' id="ifood">
+        <section className='ifood' >
             <div className="container-ifood">
                 <div className="titulo-ifood">
                     <img src={logoEntrega}/>

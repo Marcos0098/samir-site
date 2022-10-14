@@ -35,14 +35,14 @@
 .header_menu a{
 
     list-style: none;
-    padding: 10px;
     font-size: 22px;
     font-weight: bolder;
     color: #B2B2B2;
     font-family: "Roboto";
     position: relative;
     text-decoration: none;
-    
+    margin: 10px 20px;
+    padding-bottom: 5px;
 }
 
 .header_menu a:hover{

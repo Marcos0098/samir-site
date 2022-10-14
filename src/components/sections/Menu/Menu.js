@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MenuData } from './MenuData';
-import chapeu from '../images/chapeu-cozinheiro.png';
-import cardapio from '../images/menu.png';
+import chapeu from '../../images/chapeu-cozinheiro.png';
+import cardapio from '../../images/menu.png';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import './Menu.css';
 
@@ -117,7 +117,7 @@ const Menu = ({ menus }) => {
                             )
                         })}
                         <div className='arrows'>
-                            <div className='arrow-esquerda'>
+                            <div className='arrow-esquerda' id="ifood">
                                 <FaArrowLeft className='seta-esquerda' onClick={PrevCardapio}/>
                             </div>
                             <div className='arrow-direita'>
