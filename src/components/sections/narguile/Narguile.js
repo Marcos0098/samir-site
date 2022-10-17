@@ -17,7 +17,7 @@ const Narguile = () =>{
           <div className="nargas">
             <div className="titulo_narguile">
               <img src={narguile}/>
-              <h2>Experimente o melhor do Narguile</h2>
+              <h1>Experimente o melhor do Narguile</h1>
               <img style={inverter} src={narguile}/>
             </div>
             <div className="container_narguile">

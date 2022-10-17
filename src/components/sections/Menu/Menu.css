@@ -9,7 +9,7 @@ section.cardapio{
     justify-content: center;
 }
 
-.titulo-cardapio h2{
+.titulo-cardapio h1{
     margin: auto 0;
     font-size: 36px;
     font-family: 'Roboto';
@@ -154,31 +154,23 @@ section.cardapio{
     }
 
     .cardapioo {
-        opacity: 0;
-        transition-duration: 1s ease;
         margin-top: 25%;
         margin-left: 12%;
         margin-right: 16%;
     }
     
     .cardapioo.active {
-        opacity: 1;
-        transition-duration: 1s;
         transform: scale(1.08);
         margin-top: 25%;
         margin-left: 12%;
     }
 
     .cardapioo.active h3{
-        color: #FBAA00;
-        font-family: 'Roboto';
         font-size: 18px;
         margin-top: 12px;
     }
     
     .cardapioo.active p{
-        color: #B2B2B2;
-        font-family: 'Roboto';
         font-size: 15px;
     }
     
@@ -193,17 +185,12 @@ section.cardapio{
     }
 
     .cardapioo {
-        opacity: 0;
-        transition-duration: 1s ease;
         margin-top: 28%;
         margin-left: 20%;
         margin-right: 0%;
     }
     
     .cardapioo.active {
-        opacity: 1;
-        transition-duration: 1s;
-        transform: scale(1.08);
         margin-top: 28%;
         margin-left: 20%;
     }
@@ -218,31 +205,22 @@ section.cardapio{
     }
 
     .cardapioo {
-        opacity: 0;
-        transition-duration: 1s ease;
         margin-top: 32%;
         margin-left: 10%;
         margin-right: 0%;
     }
     
     .cardapioo.active {
-        opacity: 1;
-        transition-duration: 1s;
-        transform: scale(1.08);
         margin-top: 32%;
         margin-left: 10%;
     }
 
     .cardapioo.active h3{
-        color: #FBAA00;
-        font-family: 'Roboto';
         font-size: 17px;
         margin-top: 12px;
     }
     
     .cardapioo.active p{
-        color: #B2B2B2;
-        font-family: 'Roboto';
         font-size: 14px;
     }
     
@@ -258,31 +236,22 @@ section.cardapio{
     }
 
     .cardapioo {
-        opacity: 0;
-        transition-duration: 1s ease;
         margin-top: 55%;
         margin-left: 10%;
         margin-right: 0%;
     }
     
     .cardapioo.active {
-        opacity: 1;
-        transition-duration: 1s;
-        transform: scale(1.08);
         margin-top: 55%;
         margin-left: 10%;
     }
 
     .cardapioo.active h3{
-        color: #FBAA00;
-        font-family: 'Roboto';
         font-size: 16px;
         margin-top: 12px;
     }
     
     .cardapioo.active p{
-        color: #B2B2B2;
-        font-family: 'Roboto';
         font-size: 12px;
     }
     
@@ -313,6 +282,7 @@ section.cardapio{
     .selecionar-cardapio{
         display: none;
     }
+    
     .cardapio-container{
         width: 100%;
         display: block;
@@ -322,8 +292,6 @@ section.cardapio{
         margin: 10% 0;
         height: 700px;
         background-image: url('../../images/menu.png');
-        background-repeat: no-repeat;
-        background-size: cover;
         background-size: 100% 100%;
     }
 
@@ -333,7 +301,6 @@ section.cardapio{
     
     .menu-cardapio{
         display: block;
-
         margin: 0 0;
     }
 
@@ -358,7 +325,6 @@ section.cardapio{
     }
 
     .sabor{
-        color: #ffc23f !important;
         font-size: 15px !important;
     }
 

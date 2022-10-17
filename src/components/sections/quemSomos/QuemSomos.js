@@ -14,11 +14,10 @@
                             <div className="box_quem_somos">
                             <div className="titulo_quem_somos">
                             <img src={logo}/>
-                            <h2>Sultan</h2>
+                            <h1>Sultan</h1>
 
                             <img style={inverter} src={logo}/>
                             </div>
-
                                 <p>Fundado em 2017, o restaurante Sultan oferece a melhor experiência da culinária Árabe de Balneário Camboriú. Por isso convidamos a todos que experimentem o melhor tempero Árabe da cidade diretamente do restaurante Sultan.  </p>
                             </div>
                         </div>

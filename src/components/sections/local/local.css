@@ -22,7 +22,7 @@ section.local{
     width: 70px;
 }
 
-.titulo_restaurante h2{
+.titulo_restaurante h1{
     margin: auto 0;
     font-size: 36px;
     font-family: 'Roboto';
@@ -70,7 +70,7 @@ section.local{
         width: 100%;
     }
     
-    .titulo_restaurante h2{
+    .titulo_restaurante h1{
         font-size: 30px;
     }
     

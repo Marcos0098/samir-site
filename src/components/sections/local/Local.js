@@ -11,7 +11,7 @@ const Local = () =>{
           <div className="restaurante">
               <div className="titulo_restaurante">
               <img src={house}/>
-              <h2>Conheça nosso restaurante</h2>
+              <h1>Conheça nosso restaurante</h1>
               <img src={house}/>
               </div>
             <div className="container_restaurante">

@@ -64,7 +64,7 @@ const Menu = ({ menus }) => {
         <section className='cardapio' id='cardapio'>
             <div className='titulo-cardapio'>
                 <img src={chapeu}/>
-                <h2>Confira nosso cardápio</h2>
+                <h1>Confira nosso cardápio</h1>
                 <img style={inverter} src={chapeu}/>
             </div>
                 <div className='cardapio-container'>
@@ -93,6 +93,7 @@ const Menu = ({ menus }) => {
                                     
                                     <div className={numero === current ? 'cardapioo active' : 'cardapioo'} key={numero}>
                                         {numero === current && (<h2 className='titulo'>{menu.titulo}</h2>)}
+                                        
                                         {numero === current && (<h3 className='sabor'>{menu.sabores[0]}</h3>)}
                                         {numero === current && (<p className='ingredientes'>{menu.ingredientes[0]}</p>)}
                                         {numero === current && (<h3 className='sabor'>{menu.sabores[1]}</h3>)}

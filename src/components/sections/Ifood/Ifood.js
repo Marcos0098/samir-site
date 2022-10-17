@@ -28,7 +28,6 @@ const Ifood = () => {
                     </div>
                 </div>
 
-
             </div>
         </section>
     )

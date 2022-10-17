@@ -85,7 +85,7 @@
     border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.75s;
 }
 
 .pedido a:hover{
