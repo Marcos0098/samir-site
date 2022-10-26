@@ -118,10 +118,10 @@ const Menu = ({ menus }) => {
                             )
                         })}
                         <div className='arrows'>
-                            <div className='arrow-esquerda' id="ifood">
+                            <div className='arrow-esquerda' >
                                 <FaArrowLeft className='seta-esquerda' onClick={PrevCardapio}/>
                             </div>
-                            <div className='arrow-direita'>
+                            <div className='arrow-direita' >
                                 <FaArrowRight className='seta-direita' onClick={NextCardapio}/>
                             </div>
 

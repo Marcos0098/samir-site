@@ -9,7 +9,7 @@ const Ifood = () => {
 
     return(
         <section className='ifood' >
-            <div className="container-ifood">
+            <div className="container-ifood" id="ifood">
                 <div className="titulo-ifood">
                     <img src={logoEntrega}/>
                     <h1>Peça agora um SULTAN</h1>
