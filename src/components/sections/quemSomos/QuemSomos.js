@@ -18,7 +18,7 @@
 
                             <img style={inverter} src={logo}/>
                             </div>
-                                <p>Fundado em 2017, o restaurante Sultan oferece a melhor experiência da culinária Árabe de Balneário Camboriú. Por isso convidamos a todos que experimentem o melhor tempero Árabe da cidade diretamente do restaurante Sultan.  </p>
+                                <p>Fundado em 2017, o restaurante Sultan oferece a melhor experiência da culinária Árabe de Balneário Camboriú.</p>
                             </div>
                         </div>
                     </section>
