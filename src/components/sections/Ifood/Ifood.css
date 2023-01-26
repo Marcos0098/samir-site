@@ -49,14 +49,14 @@ section.ifood{
 
 .container-ifood h2{
     margin-top: 1%;
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'Roboto';
     font-weight: bold;
 }
 
 .container-ifood h3{
     margin-top: 7%;
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'Roboto';
     font-weight: bold;
 }
@@ -85,6 +85,7 @@ section.ifood{
 .entregador-logo{
     display: flex;
     align-items: flex-end;
+    margin-left: 2%;
     width: 30%;
 }
 
