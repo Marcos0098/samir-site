@@ -1,15 +1,14 @@
-import logo1 from '../images/logo.png';
+import React from 'react';
+import './Header.css';
+import logo1 from '../components/images/logo.png';
 import { useState } from 'react';
 import { Anchor } from 'antd';
 
 const { Link } = Anchor;
 
-import './Header.css';
-
 function Header(){
 
 const [active, setMode] = useState(false);
-
 const ToggleMode = () => {
     setMode(!active);
 };
@@ -28,6 +27,7 @@ const ToggleMode = () => {
                         <Link href="#narguile" title="Narguile" />
                         <Link href="#cardapio" title="Nossos Pratos" />
                     </div>
+
                 </Anchor>
                 </div>
 

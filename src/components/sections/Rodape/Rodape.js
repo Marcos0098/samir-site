@@ -1,19 +1,23 @@
 import React from "react";
-
+import './Rodape.css';
 import LogoPrincipal from '../../images/logoFundo0.png';
 import facebook from '../../images/facebook-logo.png';
 import zap from '../../images/whatsapp.png';
 import instagram from '../../images/instagram-logo.png';
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 import { AiFillPhone } from 'react-icons/ai';
 import { IoLocationSharp } from 'react-icons/io5';
 import { MdEmail } from 'react-icons/md';
-
-import './Rodape.css';
-
-
 const Rodape = () => {
 
-
+    const { isLoaded } = useJsApiLoader({
+        id: 'google-map-script',
+        googleMapsApiKey: "AIzaSyAkTmHdqWi3T87GAqLjwLIG_gwr775nMB4"
+      })
+      const position = {
+        lat:-26.993983,
+        lng:-48.6297357
+      }
     return(
         <section className="rodape">
             <div className="container-principal-rodape">
@@ -42,7 +46,26 @@ const Rodape = () => {
                         </div>
                     </div>
             </div>
-           
+            <div className="w33">
+                {isLoaded ? (
+                    <GoogleMap
+                        mapContainerStyle={{width: '100%', height: '100%'}}
+                        center={position}
+                        zoom={16}
+                    >
+                        <Marker 
+                        position={position}
+                        options={{
+                            label: {
+                                text: "Restaurante Sultan",
+                                className: "texto-map",
+                            },
+                        }}
+                        />
+                    </GoogleMap>
+                ) : <></>
+                }
+            </div>
         </section>
     )
 }

@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 .header{
@@ -34,21 +33,21 @@
 }
 
 .header_menu a{
+
     list-style: none;
     font-size: 22px;
     font-weight: bolder;
-    text-decoration: none;
-    color: #B2B2B2 !important;
+    color: #B2B2B2;
     font-family: "Roboto";
     position: relative;
-
+    text-decoration: none;
     margin: 10px 20px;
     padding-bottom: 5px;
 }
 
 .header_menu a:hover{
-    text-shadow: 0px 0px 5px black !important;
-    color: #FBAA00 !important;
+    text-shadow: 0px 0px 5px black;
+    color: #FBAA00;
     cursor: pointer;
 }
 
@@ -57,7 +56,7 @@
     height: 5px;
     width: 0px;
     background: #B2B2B2;
-    box-shadow: 0px 0px 2px black !important;
+    box-shadow: 0px 0px 2px black;
     border-radius: 10px;
     position: absolute;
     bottom: -1px;
@@ -72,27 +71,28 @@
 
 .pedido{
     width: 20%;
-    margin: auto 20px;
+    margin: auto 30px;
     text-align: right;
 }
 
 .pedido a{
-    color: #B2B2B2 !important;
+
     font-weight: bold;
     font-size: 28px;
+    font-family: 'Roboto';
     padding: 2px 5px;
+    color: #B2B2B2;
     border-radius: 10px;
     text-decoration: none;
-    text-align: center;
     cursor: pointer;
     transition: 0.75s;
 }
 
 .pedido a:hover{
     font-size: 28px;
-    background-color:#FBAA00 ;
+    background-color:#FBAA00;
     border-radius: 10px;
-    color: black !important;
+    color: black;
 
 }
 
@@ -170,13 +170,13 @@
 
     .list .listItems li{
         border-top: 2px solid #FBAA00;
-        padding: 9px 0;
+        padding: 10px 0;
         
     }
 
     .list .listItems a{
         text-decoration: none;
-        color: #FBAA00 !important;
+        color: #FBAA00;
         font-weight: bold;
         font-family: 'Roboto';
     }

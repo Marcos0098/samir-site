@@ -26,12 +26,12 @@ section.rodape{
 }
 
 .dados-contato strong{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
 .dados-contato p {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .imagem-principal{
@@ -69,6 +69,17 @@ section.rodape{
     width: 50px;
 }
 
+.w33{
+    border-radius: 8px;
+    border: 4px solid #FBA000;
+    box-shadow: 0 0 3px white;
+    position: absolute;
+    margin-top: 40px;
+    width: 35%;
+    height: 35%;
+    left: 50%;
+
+}
 
 .texto-map{
     margin-top: -30px;
@@ -87,5 +98,10 @@ section.rodape{
 
     .contatos{
         width: 80%;
+    }
+
+    .w33{
+        width: 80%;
+        left: 10%;
     }
 }
