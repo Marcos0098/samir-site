@@ -14,39 +14,6 @@ const Menu = ({ menus }) => {
         transform:'scaleX(-1)'
       }
 
-    const menuShawarma = () => {
-        setCurrent(current === null ? null : 0);
-    }
-    const menuXisA = () => {
-        setCurrent(current === null ? null : 1);
-    }
-
-    const menuXisG = () => {
-        setCurrent(current === null ? null : 2);
-    }
-
-    const Pratos = () => {
-        setCurrent(current === null ? null : 3);
-    }
-
-    const Porcoes = () => {
-        setCurrent(current === null ? null : 4);
-    }
-
-    const Individuais = () => {
-        setCurrent(current === null ? null : 5);
-        console.log(current);
-    }
-
-    const Combos = () => {
-        setCurrent(current === null ? null : 6);
-        console.log(current);
-    }
-
-    const Bebidas = () => {
-        setCurrent(current === null ? null : 7);
-        console.log(current);
-    }
 
     const NextCardapio = () => {
         setCurrent(current === tamanho - 1 ? 0 : current + 1)
@@ -73,14 +40,7 @@ const Menu = ({ menus }) => {
                         <h2>Descubra um de nossos pratos</h2>
                     </div>
                 <div className='selecionar-cardapio'>
-                    <p onClick={menuShawarma}>Shawarma</p>
-                    <p onClick={menuXisA}>Xis Árabe</p>
-                    <p onClick={menuXisG}>Xis Gaúcho</p>
-                    <p onClick={Pratos}>Pratos</p>
-                    <p onClick={Porcoes}>Porções</p>
-                    <p onClick={Individuais}>Individuais</p>
-                    <p onClick={Combos}>Combos</p>
-                    <p onClick={Bebidas}>Bebidas</p>
+                    {MenuData.map((menu, index) => <p onClick={() => setCurrent(index)}>{menu.titulo}</p>)}
                 </div>
 
                 </div>
